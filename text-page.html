@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sn-app</title>
+        <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <aside class="sidebar">
+                <div class="sidebar__container">
+
+                    <div class="sidebar__wrapper-img"> <!-- удалить "-" -->
+                        <picture class="sidebar__picture">
+                            <source
+                                srcset="./img/picture/aside/Rectangle1.webp 1x, ./img/picture/aside/Rectangle1@2x.webp x2, ./img/picture/aside/Rectangle1@3x.webp 3x"
+                                type="image/webp" media="(min-width: 768px)">
+                            <source
+                                srcset="./img/picture/aside/Rectangle1-min.jpg 1x, ./img/picture/aside/Rectangle1@2x-min.jpg x2, ./img/picture/aside/Rectangle1@3x-min.jpg 3x"
+                                media="(min-width: 768px)">
+
+                            <img class="sidebar__picture-background" src="./img/picture/aside/Rectangle1-min.jpg"
+                                alt="ноутбук на столе">
+                        </picture>
+
+                        <picture class="sidebar__picture-avatar">
+                            <source srcset="./img/picture/aside/Ellipse1.webp" type="image/webp">
+                            <img class="sidebar__img-avatar" src="./img/picture/aside/Ellipse1.png" alt="мужчина">
+                        </picture>
+                    </div>
+
+                    <div class="sidebar__wrapper-text">
+                        <h2 class="sidebar__title">Дмитрий Валак</h2>
+                        <p class="sidebar__subtitle">блог front-end разработчика</p>
+
+                        <ul class="sidebar__social-list">
+                            <li class="sidebar__social-item"><a href="#" class="aside__social-link"><svg
+                                        class="sidebar__social-icon aside__instagram">
+                                        <use href="./img/icon.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="sidebar__social-item"><a href="#" class="aside__social-link"><svg
+                                        class="sidebar__social-icon">
+                                        <use href="./img/icon.svg#icon-vk"></use>
+                                    </svg></a></li>
+                            <li class="sidebar__social-item"><a href="#" class="aside__social-link"><svg
+                                        class="sidebar__social-icon">
+                                        <use href="./img/icon.svg#icon-pinterest"></use>
+
+                                    </svg></a></li>
+                        </ul>
+
+
+                        <p class="sidebar__decription">Front-end разработчик. Практик верстки сайтов.
+                            Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более
+                            10
+                            000 часов в создании
+                            сайтов различной сложности.</p>
+
+                        <div class="sidebar__wrapper-button">
+
+                            <button type="button" class="btn btn-red">Мои работы</button>
+
+
+                            <button type="button" class="btn btn-blue">Написать мне</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </aside>
+
+
+            <div class="wrapper-contant">
+                <header class="header">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Статьи</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Обо мне</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Реклама</a></li>
+                            <li class="header__item header__profil"><a href="#" class="header__link">Профиль</a></li>
+                        </ul>
+
+                    </nav>
+                    <input type="text" placeholder="Поиск по блогу" class="header__input">
+                </header>
+                <main class="main">
+                    <div class="main__wrapper">
+                        <div class="main__list-nav">
+                            <a href="#" class="main__link-nav link">вернуться назад</a>
+                            <a href="#" class="main__link-nav link main__linkMargin">поделиться <svg
+                                    class="main__icon-nav">
+                                    <use href="./img/icon.svg#icon-Group"></use>
+                                </svg> </a>
+                        </div>
+
+                        <h1 class="main__title">
+                            Как создавать сайты легко
+                        </h1>
+
+                        <div class="main__wrapper-time">
+                            <span><time datetime="2022-12-16" pubdate>16.12.2022</time></span>
+
+                            <p class="main__label-text">создание сайтов</p>
+
+                        </div>
+                        <p class="main__text main__text-first">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis
+                            urna. Et
+                            vestibulum, posuere
+                            tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                            sodales lacinia eu auctor
+                            nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit
+                            amet, consectetur
+                            adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia
+                            sit.
+                            Sagittis porttitor orci
+                            auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam
+                            sit
+                            sed volutpat massa.
+                            Egestas ornare vel volutpat.
+                        </p>
+                        <p class="main__text main__text-second">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Elementum volutpat
+                            orci turpis urna. Et vestibulum, posuere
+                            tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                            sodales lacinia eu auctor
+                            nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                        <picture class="main__picture">
+                            <source
+                                srcset="./img/picture/main/image.webp 1x, ./img/picture/main/image@2x.webp x2, ./img/picture/main/image@3x.webp 3x"
+                                type="image/webp" media="(min-width: 768px)">
+                            <source
+                                srcset="./img/picture/main/image-min.jpg 1x, ./img/picture/main/image@2x-min.jpg x2, ./img/picture/main/image@3x-min.jpg 3x"
+                                media="(min-width: 768px)">
+
+                            <img class="main__img" src="./img/picture/main/image-min.jpg"
+                                alt="програмный код на экране">
+                        </picture>
+                        <p class="main__text main__text-three">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Elementum volutpat
+                            orci turpis urna. Et vestibulum, posuere
+                            tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                            sodales lacinia eu auctor
+                            nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit
+                            amet, consectetur
+                            adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia
+                            sit.
+                            Sagittis porttitor orci
+                            auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam
+                            sit
+                            sed volutpat massa.
+                            Egestas ornare vel volutpat.</p>
+
+                        <h2 class="main__subtitle">Интересно почитать</h2>
+
+                        <ul class="main__list-articles">
+                            <li class="main__item-articles"><a href="#" class="main__link-articles link">Как я сходил на
+                                    FrontEnd Conf 2021</a>
+                                <span><time datetime="2022-12-16" pubdate>16.12.2022</time></span>
+                            </li>
+                            <li class="main__item-articles"><a href="#" class="main__link-articles link">Как писать код
+                                    быстро и ...</a>
+                                <span><time datetime="2022-12-16" pubdate>16.12.2022</time></span>
+                            </li>
+                            <li class="main__item-articles"><a href="#" class="main__link-articles link">Купил новый
+                                    ноутбук за 150 000 руб</a>
+                                <span><time datetime="2022-12-16" pubdate>16.12.2022</time></span>
+                            </li>
+                            <li class="main__item-articles"><a href="#" class="main__link-articles link">Купил новый
+                                    ноутбук за 150 000 руб</a>
+                                <span><time datetime="2022-12-16" pubdate>16.12.2022</time></span>
+                            </li>
+                        </ul>
+
+                        <h2 class="main__subtitle-comments">Обсуждение</h2>
+
+                        <form class="main__form">
+                            <input type="text" class="main_input" placeholder="Текст комментария">
+                            <button type="submit" class="main_btn btn">Отправить</button>
+                        </form>
+
+
+                        <div class="comments__wrap">
+                            <div class="comments">
+                                <!-- ты сделал comments__margin-bottom, это уже идет ошибка не в структуре, а в стилях
+                                                            думай всегда о том, что раздел как ты сделал, будет не один, а много, поэтому всегда проверяй
+                                                            дублируй и смотри что получится, если такой блок будет 1, и 10. Здесь у тебя ошибка в том, что
+                                                            у тебя стиль который вешается на comments__margin-bottom вешается только на этот комментарий
+                                                            а следующий комментарий, где класс comments__margin-left будет без отступа с низу
+                                                            поэтому отступ с низу можешь поставить на общий тег comments, а тег comments__margin-left удалить
+                                                        -->
+                                <div class="comments__wrapper">
+                                    <picture class="comments__wrapper-picture">
+                                        <img src="./img/picture/comments/Ellipse 2 (1).png" alt="фото профиля"
+                                            class="comments__img">
+
+                                    </picture>
+                                    <div class="comments__wrapper-name">
+                                        <!-- я обычно когда делаю враппер, то внутри враппера уже пишу wrap, это обозначает что это
+                                                                просто маленькая оберка -->
+                                        <h4 class="comments__subtitle">Дмитрий Валак</h4>
+                                        <p class="comments__time">1 неделю назад</p>
+                                    </div>
+                                </div>
+                                <p class="comments__text">Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor
+                                    orci
+                                    auctor in at tincidunt arcu egestas. Fusce arcu
+                                    sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare
+                                    vel
+                                    volutpat.</p>
+                                <button type="button" class="comments__link">ответить</и>
+
+                            </div>
+                            <div class="comments comments__margin-left">
+                                <div class="comments__wrapper">
+                                    <picture class="comments__wrapper-picture">
+                                        <img src="./img/picture/comments/Ellipse 2.png" alt="фото профиля"
+                                            class="comments__img">
+                                    </picture>
+                                    <div class="comments__wrapper-name">
+                                        <h4 class="comments__subtitle">Джонни</h4>
+                                        <p class="comments__time">1 неделю назад</p>
+                                    </div>
+                                </div>
+                                <p class="comments__text">Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor
+                                    orci
+                                    auctor in at tincidunt arcu egestas. Fusce arcu
+                                    sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare
+                                    vel
+                                    volutpat.</p>
+                                <button type="button" class="comments__link">ответить</и>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </main>
+                <footer class="footer"></footer>
+            </div>
+        </div>
+        <input type="radio">
+    </body>
+
+</html>

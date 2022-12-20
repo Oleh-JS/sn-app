@@ -1,0 +1,29 @@
+:root {
+  --background-aside: #202020;
+  --background: #1c1c1c;
+  --background-header: #0d0d0d;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.woff), url(../fonts/Roboto-Light.woff2);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.woff), url(../fonts/Roboto-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.woff), url(../fonts/Roboto-Medium.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.woff), url(../fonts/Lato-Regular.woff2);
+  font-weight: 400;
+}
